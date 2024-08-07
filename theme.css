@@ -43,10 +43,3 @@ a:not(.btn):not(.nav-link):not(.navbar-brand):not(.dropdown-item):not(.text-whit
 #event-title:hover {
     color: var(--rojo-2) !important;
 }
-footer {
-    opacity: 0.0 !important;
-}
-
-#footer {
-    opacity: 0.0 !important;
-}
