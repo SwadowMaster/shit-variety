@@ -1,3 +1,10 @@
+footer {
+    opacity: 0.0 !important;
+}
+
+#footer {
+    opacity: 0.0 !important;
+}
 .navbar-brand {
     background-image: url(https://i.imgur.com/7GWS2ZH.png) !important;
     background-size: contain;
@@ -32,7 +39,6 @@ a:not(.btn):not(.nav-link):not(.navbar-brand):not(.dropdown-item):not(.text-whit
 #event-title:hover {
     color: #a10000 !important;
 }
-
 footer {
     opacity: 0.0 !important;
 }
