@@ -1,3 +1,7 @@
+:root {
+    --rojo-1: #a00c0c;
+    --rojo-2: #a10000;
+}
 footer {
     opacity: 0.0 !important;
 }
@@ -18,26 +22,26 @@ footer {
 .badge-primary,
 .dropdown-item:hover,
 .dropdown-item:focus {
-    background-color: #D40000 !important;
-    border-color: #a10000 !important;
+    background-color: var(--rojo-1) !important;
+        border-color: var(--rojo-2) !important;
 }
 
 .navbar.bg-primary,
 .border-primary {
-    border-color: #a10000 !important;
+    border-color: var(--rojo-2) !important;
 }
 
 .text-primary,
 a:not(.btn):not(.nav-link):not(.navbar-brand):not(.dropdown-item):not(.text-white):not(.text-danger):not(.fc-event):not(.page-link) {
-    color: #D40000 !important;
+    color: var(--rojo-1) !important;
 }
 
 .dropdown-item:active {
-    background-color: #D40000 !important;
+    background-color: var(--rojo-1) !important;
 }
 
 #event-title:hover {
-    color: #a10000 !important;
+    color: var(--rojo-2) !important;
 }
 footer {
     opacity: 0.0 !important;
