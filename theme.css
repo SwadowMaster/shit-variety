@@ -1,6 +1,8 @@
 :root {
     --rojo-1: #a00c0c;
     --rojo-2: #a10000;
+    --rojo-texts: #df0707;
+        --rojo-texts-2: #ff0000;
 }
 footer {
     opacity: 0.0 !important;
@@ -33,7 +35,13 @@ footer {
 
 .text-primary,
 a:not(.btn):not(.nav-link):not(.navbar-brand):not(.dropdown-item):not(.text-white):not(.text-danger):not(.fc-event):not(.page-link) {
-    color: var(--rojo-1) !important;
+    color: var(--rojo-texts) !important;
+    }
+    
+    
+    .text-primary:hover,
+    a:not(.btn):not(.nav-link):not(.navbar-brand):not(.dropdown-item):not(.text-white):not(.text-danger):not(.fc-event):not(.page-link):hover {
+        color: var(--rojo-texts-2) !important;
 }
 
 .dropdown-item:active {
