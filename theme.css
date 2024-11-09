@@ -67,3 +67,7 @@ footer {
 #footer {
     opacity: 0.0 !important;
 }
+
+.col-md-6.col-lg-4.mt-4 > a[href="/help"] {
+    display: none;
+}
