@@ -1,3 +1,26 @@
 [CHAT] 
 MESSAGES_FILTER='^RP>'
 SERVER_MESSAGES_FILTER='^RP<|^/rp>'    
+
+
+
+Real Penalty - DRS lock when not allowed
+
+Novedad
+14 nov 2023
+
+Thanks to the CSP extra options on the server and LUA script (doc here https://github.com/ac-custom-shaders-patch/acc-extension-config/wiki/Misc-–-Server-extra-options), Real Penalty can now lock the DRS on the client when its use is not allowed.
+
+
+Just set this option on your server:
+
+[SCRIPT_0_RP_DRS]
+SCRIPT = "https://raw.githubusercontent.com/dadebolo/RealPenaltyLua/main/realpenalty"
+
+
+
+It can only work using the CSP >= 0.1.76 on the client. Don't forget to set it as mandatory!
+
+
+
+Important: don't set "Bonus Time" and "Max Illegal Uses" to zero, because the DRS could remain in any case open for a few milliseconds if the driver press the button.
