@@ -219,7 +219,9 @@ window.SnowEffect = {
     },
 };
 
-const AUDIO_URL = "http://soundbible.com/mp3/Female_Scream_Horror-NeoPhyTe-138499973.mp3";
+//const AUDIO_URL = "http://soundbible.com/mp3/Female_Scream_Horror-NeoPhyTe-138499973.mp3";
+
+const AUDIO_URL= "https://swadowmaster.github.io/shit-variety/indios.mp3"
 const audio = new Audio(AUDIO_URL);
 audio.loop = false;
 
