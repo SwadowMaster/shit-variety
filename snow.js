@@ -225,7 +225,7 @@ const AUDIO_URL= "https://swadowmaster.github.io/shit-variety/indios.mp3"
 const audio = new Audio(AUDIO_URL);
 audio.loop = false;
 
-const MAX_PLAY_COUNT = 3;
+const MAX_PLAY_COUNT = 1;
 let playCount = 0;
 
 const enableAudioAfterInteraction = () => {
